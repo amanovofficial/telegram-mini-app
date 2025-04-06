@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telegram Mini App</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+            background: #f5f5f5;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background: #0088cc;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<h1>Hello, Telegram!</h1>
+<p id="user-info">Click the button to get your name.</p>
+<button onclick="getUser()">Get My Name</button>
+
+<script>
+    function getUser() {
+        const tg = window.Telegram.WebApp;
+        tg.expand(); // optional, expands the webview
+
+        if (tg.initDataUnsafe && tg.initDataUnsafe.user) {
+            const user = tg.initDataUnsafe.user;
+            document.getElementById('user-info').innerText =
+                `Hi ${user.first_name} ${user.last_name || ''} (@${user.username || 'no username'})!`;
+        } else {
+            document.getElementById('user-info').innerText = 'User data not available.';
+        }
+    }
+</script>
+</body>
+</html>
