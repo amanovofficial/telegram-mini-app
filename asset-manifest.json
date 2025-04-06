@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/amanovofficial/simple-tg-mini-app/static/css/main.35005d75.css",
-    "main.js": "/amanovofficial/simple-tg-mini-app/static/js/main.1c7b4689.js",
-    "static/js/453.296e3bc6.chunk.js": "/amanovofficial/simple-tg-mini-app/static/js/453.296e3bc6.chunk.js",
-    "index.html": "/amanovofficial/simple-tg-mini-app/index.html",
-    "main.35005d75.css.map": "/amanovofficial/simple-tg-mini-app/static/css/main.35005d75.css.map",
-    "main.1c7b4689.js.map": "/amanovofficial/simple-tg-mini-app/static/js/main.1c7b4689.js.map",
-    "453.296e3bc6.chunk.js.map": "/amanovofficial/simple-tg-mini-app/static/js/453.296e3bc6.chunk.js.map"
+    "main.css": "/simple-tg-mini-app/static/css/main.35005d75.css",
+    "main.js": "/simple-tg-mini-app/static/js/main.c84fe5cd.js",
+    "static/js/453.296e3bc6.chunk.js": "/simple-tg-mini-app/static/js/453.296e3bc6.chunk.js",
+    "index.html": "/simple-tg-mini-app/index.html",
+    "main.35005d75.css.map": "/simple-tg-mini-app/static/css/main.35005d75.css.map",
+    "main.c84fe5cd.js.map": "/simple-tg-mini-app/static/js/main.c84fe5cd.js.map",
+    "453.296e3bc6.chunk.js.map": "/simple-tg-mini-app/static/js/453.296e3bc6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35005d75.css",
-    "static/js/main.1c7b4689.js"
+    "static/js/main.c84fe5cd.js"
   ]
 }
